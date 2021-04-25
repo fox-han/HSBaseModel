@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HSBaseModel_Example' do
+  pod 'HSBaseModel', :path => '../'
+
+  target 'HSBaseModel_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
