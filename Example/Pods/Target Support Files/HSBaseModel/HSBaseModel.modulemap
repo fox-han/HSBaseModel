@@ -1,0 +1,6 @@
+framework module HSBaseModel {
+  umbrella header "HSBaseModel-umbrella.h"
+
+  export *
+  module * { export * }
+}
